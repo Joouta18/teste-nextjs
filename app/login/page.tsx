@@ -15,7 +15,7 @@ export default async function LoginPage() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-blue-dark via-brand-blue to-brand-blue-light p-4">
+    <main className="min-h-screen flex items-center justify-center .bg-gradient-to-br from-brand-blue-dark via-brand-blue to-brand-blue-light p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm mb-4">
