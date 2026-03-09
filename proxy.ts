@@ -5,7 +5,7 @@ const SESSION_COOKIE = "prefeitura_session";
 const PROTECTED_PATHS = ["/users"];
 const PUBLIC_PATHS = ["/login"];
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const session = request.cookies.get(SESSION_COOKIE)?.value;
 
