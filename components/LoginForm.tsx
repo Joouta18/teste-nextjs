@@ -26,7 +26,7 @@ export default function LoginForm() {
             name="email"
             type="email"
             autoComplete="email"
-            placeholder="servidor@belfordroxo.rj.gov.br"
+            placeholder="qualquer@gmail.com"
             className="input-field"
             required
           />
